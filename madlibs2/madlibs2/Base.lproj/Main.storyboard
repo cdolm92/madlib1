@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1 Adjective" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UtV-gs-lMg">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="117" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="2 Animal" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ki4-ut-Tfk">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="155" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3 Verb" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3l5-vP-xEQ">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="193" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="4 Verb" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xdd-Fc-P91">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="15" y="231" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="5 Building Material" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vn4-Mk-myq">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="274" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4R-Y5-YJG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="65" y="261" width="0.0" height="0.0"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="6 Verb" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHd-0Z-rmE">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="15" y="312" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="7 Verb" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKu-rd-TOx">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="15" y="350" width="153" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="8 Building Material 2" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OdO-UA-zaw">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="388" width="154" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="9 Animal 2" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R88-N8-tUc">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="194" y="117" width="163" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10 Building Material 3" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nd1-fk-Ca7">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="155" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="11 Adjective" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SZR-qs-gpo">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="193" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="12 Verb" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BEh-yJ-TH5">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="231" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="13 Verb (Past-Tense)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jm9-1d-jrp">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="273" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="14 Verb (Past-Tense)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bVK-ey-9P5">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="312" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="15 Verb (Past-Tense)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sAK-sH-zBs">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="193" y="350" width="164" height="30"/>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRb-FD-Twl">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="MADLIBS">
+                                        <attributes>
+                                            <color key="NSColor" red="0.72705271131218963" green="0.99038326740264893" blue="0.89111123183194341" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="37" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="17" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                    <rect key="frame" x="118" y="47" width="173" height="44"/>
+                                </variation>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXe-6x-Vo3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.72705271130000004" green="0.99038326740000004" blue="0.89111123179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72705271130000004" green="0.99038326740000004" blue="0.89111123179999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Enter">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="448" width="91" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iDN-FR-3HA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99038326740000004" green="0.48621215099999998" blue="0.70061658140000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UtV-gs-lMg"/>
+                                <exclude reference="ki4-ut-Tfk"/>
+                                <exclude reference="3l5-vP-xEQ"/>
+                                <exclude reference="xdd-Fc-P91"/>
+                                <exclude reference="vn4-Mk-myq"/>
+                                <exclude reference="L4R-Y5-YJG"/>
+                                <exclude reference="eHd-0Z-rmE"/>
+                                <exclude reference="OKu-rd-TOx"/>
+                                <exclude reference="OdO-UA-zaw"/>
+                                <exclude reference="R88-N8-tUc"/>
+                                <exclude reference="Nd1-fk-Ca7"/>
+                                <exclude reference="SZR-qs-gpo"/>
+                                <exclude reference="BEh-yJ-TH5"/>
+                                <exclude reference="jm9-1d-jrp"/>
+                                <exclude reference="bVK-ey-9P5"/>
+                                <exclude reference="sAK-sH-zBs"/>
+                                <exclude reference="yRb-FD-Twl"/>
+                                <exclude reference="nXe-6x-Vo3"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="UtV-gs-lMg"/>
+                                <include reference="ki4-ut-Tfk"/>
+                                <include reference="3l5-vP-xEQ"/>
+                                <include reference="xdd-Fc-P91"/>
+                                <include reference="vn4-Mk-myq"/>
+                                <include reference="L4R-Y5-YJG"/>
+                                <include reference="eHd-0Z-rmE"/>
+                                <include reference="OKu-rd-TOx"/>
+                                <include reference="OdO-UA-zaw"/>
+                                <include reference="R88-N8-tUc"/>
+                                <include reference="Nd1-fk-Ca7"/>
+                                <include reference="SZR-qs-gpo"/>
+                                <include reference="BEh-yJ-TH5"/>
+                                <include reference="jm9-1d-jrp"/>
+                                <include reference="bVK-ey-9P5"/>
+                                <include reference="sAK-sH-zBs"/>
+                                <include reference="yRb-FD-Twl"/>
+                                <include reference="nXe-6x-Vo3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="adj" destination="UtV-gs-lMg" id="a1y-FJ-QSk"/>
+                        <outlet property="adj2" destination="SZR-qs-gpo" id="PWS-qE-JNA"/>
+                        <outlet property="animal" destination="ki4-ut-Tfk" id="ueu-s3-zMA"/>
+                        <outlet property="animal2" destination="R88-N8-tUc" id="45B-kT-c6w"/>
+                        <outlet property="buildingmaterial1" destination="vn4-Mk-myq" id="ITz-jq-v0J"/>
+                        <outlet property="buildingmaterial2" destination="OdO-UA-zaw" id="l7d-UM-rnf"/>
+                        <outlet property="buildingmaterial3" destination="Nd1-fk-Ca7" id="qDe-jM-yZv"/>
+                        <outlet property="firstVerb" destination="3l5-vP-xEQ" id="Fa0-n9-G1s"/>
+                        <outlet property="verb2" destination="xdd-Fc-P91" id="Uj0-RM-Ogc"/>
+                        <outlet property="verb3" destination="eHd-0Z-rmE" id="saY-Ca-YOk"/>
+                        <outlet property="verb4" destination="OKu-rd-TOx" id="SxW-nv-kGJ"/>
+                        <outlet property="verb5" destination="BEh-yJ-TH5" id="6K7-Lp-p8w"/>
+                        <outlet property="verb6" destination="jm9-1d-jrp" id="nuc-fC-VSn"/>
+                        <outlet property="verb7" destination="bVK-ey-9P5" id="0sn-J9-xdh"/>
+                        <outlet property="verb8" destination="sAK-sH-zBs" id="06P-88-sEV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
